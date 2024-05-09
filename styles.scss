@@ -1,0 +1,58 @@
+// Base styles
+$body-font-family: Arial, sans-serif;
+$primary-color: #333;
+$secondary-color: #fff;
+$link-color: #333;
+$link-hover-color: #ddd;
+
+body {
+    font-family: $body-font-family;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 1rem;
+    text-align: center;
+    background-image: url('room.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: $link-color;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: $link-hover-color;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 1rem;
+    text-align: center;
+}
